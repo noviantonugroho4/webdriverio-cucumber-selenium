@@ -1,0 +1,38 @@
+{
+  "name": "webdriverio-cucumber-selenium",
+  "version": "1.0.0",
+  "description": "WebdriverIO Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noviantonugroho4/webdriverio-cucumber-selenium.git"
+  },
+  "keywords": [
+    "WebdriverIO",
+    "Selenium",
+    "Cucumber",
+    "Typescript"
+  ],
+  "author": "Novianto Nugroho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noviantonugroho4/webdriverio-cucumber-selenium/issues"
+  },
+  "homepage": "https://github.com/noviantonugroho4/webdriverio-cucumber-selenium#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.16.14"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.16.14",
+    "@wdio/cucumber-framework": "^7.16.14",
+    "@wdio/local-runner": "^7.16.14",
+    "@wdio/spec-reporter": "^7.16.14",
+    "chromedriver": "^97.0.4",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5",
+    "wdio-chromedriver-service": "^7.2.6"
+  }
+}
